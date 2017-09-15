@@ -25,7 +25,7 @@ Source-repository head
 Library
   Exposed-Modules:     Data.Acid,
                        Data.Acid.Local, Data.Acid.Memory,
-                       Data.Acid.Memory.Pure, Data.Acid.Remote,
+                       Data.Acid.Memory.Pure,
                        Data.Acid.Advanced,
                        Data.Acid.Log, Data.Acid.CRC,
                        Data.Acid.Abstract, Data.Acid.Core
@@ -45,7 +45,6 @@ Library
                        directory,
                        filepath,
                        mtl,
-                       network,
                        template-haskell
 
   if os(windows)
